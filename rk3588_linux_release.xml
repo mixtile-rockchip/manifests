@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="master" fetch="git@github.com:mixtile-rockchip"/>
-  <default remote="master" sync-j="4"/>
+  <remote name="test" fetch="../"/>
+  <default remote="test" sync-j="4"/>
 
   <include name="include/rk3588_doc.xml" />
   <include name="common/linux/linux5.10-rkr6.xml" />
