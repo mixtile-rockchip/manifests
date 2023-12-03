@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="rk3588-blade3-sdk-android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-android/rk/u-boot" path="u-boot" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/app-new/qfm" path="app/qfm" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/app/QLauncher" path="app/QLauncher" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/app/multivideoplayer" path="app/multivideoplayer" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/app/qcamera" path="app/qcamera" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/app/qplayer" path="app/qplayer" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/app/settings" path="app/qsetting" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/app/lvgl_demo" path="app/lvgl_demo" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/bsp/rkadk" path="app/rkadk" remote="rk" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/buildroot" path="buildroot" revision="refs/tags/linux-5.10-gen-rkr6">
+  <project name="rk3588-blade3-sdk-android-rk-platform-system-rk_tee_user" path="external/security/rk_tee_user" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-android-rk-u-boot" path="u-boot" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-app-new-qfm" path="app/qfm" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-app-QLauncher" path="app/QLauncher" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-app-multivideoplayer" path="app/multivideoplayer" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-app-qcamera" path="app/qcamera" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-app-qplayer" path="app/qplayer" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-app-settings" path="app/qsetting" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-app-lvgl_demo" path="app/lvgl_demo" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-bsp-rkadk" path="app/rkadk" remote="rk" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-buildroot" path="buildroot" revision="refs/tags/linux-5.10-gen-rkr6">
     <linkfile src="build/envsetup.sh" dest="envsetup.sh"/>
   </project>
-  <project name="rk3588-blade3-sdk-linux/debian" path="debian" revision="refs/tags/linux-5.10-gen-rkr6" clone-depth="1"/>
-  <project name="rk3588-blade3-sdk-linux/drm-cursor" path="external/drm-cursor" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/external/alsa-config" path="external/alsa-config" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/external/chromium" path="external/chromium" revision="refs/tags/linux-5.10-gen-rkr6" clone-depth="1"/>
-  <project name="rk3588-blade3-sdk-linux/external/common_algorithm" path="external/common_algorithm" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/external/rkscript" path="external/rkscript" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/external/rktoolkit" path="external/rktoolkit" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/external/rkupdate" path="external/rkupdate" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/external/rkwifibt" path="external/rkwifibt" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/external/rkwifibt-app" path="external/rkwifibt-app" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/libmali" path="external/libmali" revision="refs/tags/linux-5.10-gen-rkr6" clone-depth="1"/>
-  <project name="rk3588-blade3-sdk-linux/linux-rga" path="external/linux-rga" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/recovery" path="external/recovery" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/rockchip-test" path="external/rockchip-test" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/rockit" path="external/rockit" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/security/bin" path="external/security/bin" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/external/uac_app" path="external/uac_app" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/external/uvc_app" path="external/uvc_app" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-linux/tools" path="tools" revision="refs/tags/linux-5.10-gen-rkr6" clone-depth="1"/>
-  <project name="rk3588-blade3-sdk-linux/xserver" path="external/xserver" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-rk/librkcrypto" path="external/security/librkcrypto" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-rk/kernel" path="kernel" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-rk/mpp" path="external/mpp" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-rk/prebuilts/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-rk/prebuilts/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" revision="refs/tags/linux-5.10-gen-rkr6"/>
-  <project name="rk3588-blade3-sdk-rk/rkbin" path="rkbin" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-debian" path="debian" revision="refs/tags/linux-5.10-gen-rkr6" clone-depth="1"/>
+  <project name="rk3588-blade3-sdk-linux-drm-cursor" path="external/drm-cursor" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-external-alsa-config" path="external/alsa-config" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-external-chromium" path="external/chromium" revision="refs/tags/linux-5.10-gen-rkr6" clone-depth="1"/>
+  <project name="rk3588-blade3-sdk-linux-external-common_algorithm" path="external/common_algorithm" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-external-rk_pcba_test" path="external/rk_pcba_test" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-external-rkscript" path="external/rkscript" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-external-rktoolkit" path="external/rktoolkit" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-external-rkupdate" path="external/rkupdate" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-external-rkwifibt" path="external/rkwifibt" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-external-rkwifibt-app" path="external/rkwifibt-app" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-gstreamer-rockchip" path="external/gstreamer-rockchip" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-libmali" path="external/libmali" revision="refs/tags/linux-5.10-gen-rkr6" clone-depth="1"/>
+  <project name="rk3588-blade3-sdk-linux-linux-rga" path="external/linux-rga" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-recovery" path="external/recovery" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-rockchip-test" path="external/rockchip-test" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-rockit" path="external/rockit" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-security-bin" path="external/security/bin" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-external-uac_app" path="external/uac_app" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-external-uvc_app" path="external/uvc_app" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-tools" path="tools" revision="refs/tags/linux-5.10-gen-rkr6" clone-depth="1"/>
+  <project name="rk3588-blade3-sdk-linux-xserver" path="external/xserver" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-rk-librkcrypto" path="external/security/librkcrypto" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-rk-kernel" path="kernel" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-rk-mpp" path="external/mpp" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-rk-prebuilts-gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-rk-prebuilts-gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-rk-rkbin" path="rkbin" revision="refs/tags/linux-5.10-gen-rkr6"/>
 </manifest>
