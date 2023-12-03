@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="rk" fetch="../../"/>
+  <remote name="rk" fetch="git@github.com:mixtile-rockchip"/>
   <default remote="rk" sync-j="4"/>
 
   <include name="include/rk3588_doc.xml" />
