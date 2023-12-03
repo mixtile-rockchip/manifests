@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="rk" fetch="git@github.com:mixtile-rockchip"/>
-  <default remote="rk" sync-j="4"/>
+  <remote name="master" fetch="git@github.com:mixtile-rockchip"/>
+  <default remote="master" sync-j="4"/>
 
   <include name="include/rk3588_doc.xml" />
   <include name="common/linux/linux5.10-rkr6.xml" />
   <include name="common/yocto/yocto-kirkstone-rkr6.xml" />
 
-  <project name="rk3588-blade3-sdk-linux-device-rockchip" path="device/rockchip" revision="refs/tags/rk3588-linux-5.10-gen-rkr6" clone-depth="1">
+  <project name="rk3588-blade3-sdk-linux-device-rockchip" path="device/rockchip" revision="refs/heads/master" clone-depth="1">
     <linkfile src="common/scripts/build.sh" dest="build.sh"/>
     <linkfile src="common/Makefile" dest="Makefile"/>
     <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
   </project>
-  <project name="rk3588-blade3-sdk-linux-external-camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="refs/tags/linux-5.10-gen-rkr6" clone-depth="1"/>
-  <project name="rk3588-blade3-sdk-rk-rknn-toolkit2" path="external/rknn-toolkit2" revision="refs/tags/linux-5.10-gen-rkr6" clone-depth="1"/>
-  <project name="rk3588-blade3-sdk-rk-rknpu2" path="external/rknpu2" revision="refs/tags/linux-5.10-gen-rkr6" clone-depth="1"/>
-  <project name="rk3588-blade3-sdk-rk-uefi-monorepo" path="uefi" revision="refs/tags/linux-5.10-gen-rkr6"/>
+  <project name="rk3588-blade3-sdk-linux-external-camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="refs/heads/master" clone-depth="1"/>
+  <project name="rk3588-blade3-sdk-rk-rknn-toolkit2" path="external/rknn-toolkit2" revision="refs/heads/master" clone-depth="1"/>
+  <project name="rk3588-blade3-sdk-rk-rknpu2" path="external/rknpu2" revision="refs/heads/master" clone-depth="1"/>
+  <project name="rk3588-blade3-sdk-rk-uefi-monorepo" path="uefi" revision="refs/heads/master"/>
 </manifest>
