@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="test" fetch="../"/>
+  <remote name="test" fetch="."/>
   <default remote="test" sync-j="4"/>
 
   <include name="include/rk3588_doc.xml" />
