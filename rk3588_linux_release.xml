@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="test" fetch="."/>
-  <default remote="test" sync-j="4"/>
+  <default remote="test" sync-j="1"/>
 
   <include name="include/rk3588_doc.xml" />
   <include name="common/linux/linux5.10-rkr6.xml" />
