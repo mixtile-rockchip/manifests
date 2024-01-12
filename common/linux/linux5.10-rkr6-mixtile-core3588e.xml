@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="rk3588-blade3-sdk-android-rk-platform-system-rk_tee_user" path="external/security/rk_tee_user" revision="master"/>
+  <project name="rk3588-blade3-sdk-android-rk-u-boot" path="u-boot" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-app-new-qfm" path="app/qfm" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-app-QLauncher" path="app/QLauncher" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-app-multivideoplayer" path="app/multivideoplayer" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-app-qcamera" path="app/qcamera" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-app-qplayer" path="app/qplayer" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-app-settings" path="app/qsetting" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-app-lvgl_demo" path="app/lvgl_demo" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-bsp-rkadk" path="app/rkadk"  revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-buildroot" path="buildroot" revision="master">
+    <linkfile src="build/envsetup.sh" dest="envsetup.sh"/>
+  </project>
+  <project name="rk3588-blade3-sdk-linux-debian" path="debian" revision="master" clone-depth="1"/>
+  <project name="rk3588-blade3-sdk-linux-drm-cursor" path="external/drm-cursor" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-external-alsa-config" path="external/alsa-config" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-external-chromium" path="external/chromium" revision="master" clone-depth="1"/>
+  <project name="rk3588-blade3-sdk-linux-external-common_algorithm" path="external/common_algorithm" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-external-rk_pcba_test" path="external/rk_pcba_test" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-external-rkscript" path="external/rkscript" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-external-rktoolkit" path="external/rktoolkit" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-external-rkupdate" path="external/rkupdate" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-external-rkwifibt" path="external/rkwifibt" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-external-rkwifibt-app" path="external/rkwifibt-app" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-gstreamer-rockchip" path="external/gstreamer-rockchip" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-libmali" path="external/libmali" revision="master" clone-depth="1"/>
+  <project name="rk3588-blade3-sdk-linux-linux-rga" path="external/linux-rga" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-recovery" path="external/recovery" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-rockchip-test" path="external/rockchip-test" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-rockit" path="external/rockit" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-security-bin" path="external/security/bin" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-external-uac_app" path="external/uac_app" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-external-uvc_app" path="external/uvc_app" revision="master"/>
+  <project name="rk3588-blade3-sdk-linux-tools" path="tools" revision="master" clone-depth="1"/>
+  <project name="rk3588-blade3-sdk-linux-xserver" path="external/xserver" revision="master"/>
+  <project name="rk3588-blade3-sdk-rk-librkcrypto" path="external/security/librkcrypto" revision="master"/>
+  <project name="rk3588-blade3-sdk-rk-kernel" path="kernel" revision="mixtile-core3588e"/>
+  <project name="rk3588-blade3-sdk-rk-mpp" path="external/mpp" revision="master"/>
+  <project name="rk3588-blade3-sdk-rk-prebuilts-gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="master"/>
+  <project name="rk3588-blade3-sdk-rk-prebuilts-gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" revision="master"/>
+  <project name="rk3588-blade3-sdk-rk-rkbin" path="rkbin" revision="master"/>
+</manifest>
