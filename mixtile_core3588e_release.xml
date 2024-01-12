@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="test" fetch="."/>
+  <default remote="test" sync-j="1"/>
+
+  <include name="include/rk3588_doc.xml" />
+  <include name="common/linux/linux5.10-rkr6-mixtile-core3588e.xml" />
+  <include name="common/yocto/yocto-kirkstone-rkr6.xml" />
+
+  <project name="rk3588-blade3-sdk-linux-device-rockchip" path="device/rockchip" revision="master" clone-depth="1">
+    <linkfile src="common/scripts/build.sh" dest="build.sh"/>
+    <linkfile src="common/Makefile" dest="Makefile"/>
+    <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
+  </project>
+  <project name="rk3588-blade3-sdk-linux-external-camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="master" clone-depth="1"/>
+  <project name="rk3588-blade3-sdk-rk-rknn-toolkit2" path="external/rknn-toolkit2" revision="master" clone-depth="1"/>
+  <project name="rk3588-blade3-sdk-rk-rknpu2" path="external/rknpu2" revision="master" clone-depth="1"/>
+  <project name="rk3588-blade3-sdk-rk-uefi-monorepo" path="uefi" revision="master"/>
+</manifest>
