@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="test" fetch="."/>
+  <default remote="test" sync-j="1"/>
+  <include name="common/yocto/yocto-mixtile-core3588e-kirkstone-rkr6.xml" />
+</manifest>
