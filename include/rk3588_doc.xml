@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<project name="rk3588-blade3-sdk-linux-bsp-docs" path="docs" revision="release" clone-depth="1"/>
-<project name="rk3588-blade3-sdk-linux-bsp-docs" path="docs/cn" revision="cn" clone-depth="1">
+<project name="rk3588-mixtile-sdk-linux-bsp-docs" path="docs" revision="release" clone-depth="1"/>
+<project name="rk3588-mixtile-sdk-linux-bsp-docs" path="docs/cn" revision="cn" clone-depth="1">
     <linkfile dest="docs/cn/RK3588/Rockchip_Developer_Guide_Linux_Software_CN.pdf" src="Rockchip_Developer_Guide_Linux_Software_CN.pdf"/>
 </project>
-<project name="rk3588-blade3-sdk-linux-bsp-docs" path="docs/en" revision="en" clone-depth="1"/>
-<project name="rk3588-blade3-sdk-linux-bsp-internal_doc" path="docs/cn/RK3588" revision="rk3588-cn"/>
-<project name="rk3588-blade3-sdk-linux-bsp-internal_doc" path="docs/en/RK3588" revision="rk3588-en"/>
+<project name="rk3588-mixtile-sdk-linux-bsp-docs" path="docs/en" revision="en" clone-depth="1"/>
+<project name="rk3588-mixtile-sdk-linux-bsp-internal_doc" path="docs/cn/RK3588" revision="rk3588-cn"/>
+<project name="rk3588-mixtile-sdk-linux-bsp-internal_doc" path="docs/en/RK3588" revision="rk3588-en"/>
 
 </manifest>
