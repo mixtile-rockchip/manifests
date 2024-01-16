@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project name="rk3588-mixtile-sdk-linux-build" path="yocto/build/conf" revision="53a3ecd9481c3ec18c56e515fee04121b8ac39a8" dest-branch="kirkstone" clone-depth="1"/>
+  <project name="rk3588-mixtile-sdk-linux-build" path="yocto/build/conf" revision="master" clone-depth="1"/>
   <project name="rk3588-mixtile-sdk-linux-poky" path="yocto/meta-browser" revision="4b98e0655f2766a69667c95068a89775f352dcc4" dest-branch="kirkstone/meta-browser" clone-depth="1"/>
   <project name="rk3588-mixtile-sdk-linux-poky" path="yocto/meta-clang" revision="7e3f2a4126d1bfacda497dfa6b59f3f471f1a984" dest-branch="kirkstone/meta-clang" clone-depth="1"/>
   <project name="rk3588-mixtile-sdk-linux-poky" path="yocto/meta-openembedded" revision="571e36e20e9d1f27af0eb4545291beeb64f280e2" dest-branch="kirkstone/meta-openembedded" clone-depth="1"/>
