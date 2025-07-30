@@ -10,7 +10,6 @@
   <include name="common/debian/debian12-rkr6.xml"/>
   <include name="common/dpdk/dpdk-rkr6.xml"/>
   <include name="common/rkipc/rkipc-rkr6.xml"/>
-  <include name="common/amp/amp-rkr6.xml"/>
 
   <!-- device/rockchip for rk3588 -->
   <project name="mixtile-sdk-linux-device-rockchip" path="device/rockchip" revision="rk3588-linux-6.1-rkr6">

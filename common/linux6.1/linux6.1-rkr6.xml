@@ -5,7 +5,7 @@
   <project name="mixtile-sdk-linux-app-lvgl_demo" path="app/lvgl_demo" revision="rk3588-linux-6.1-rkr6"/>
   <project name="mixtile-sdk-linux-app-rkpartybox" path="app/rkpartybox" revision="rk3588-linux-6.1-rkr6"/>
   <project name="mixtile-sdk-linux-bsp-rkadk" path="app/rkadk" revision="rk3588-linux-6.1-rkr6"/>
-  <project name="mixtile-sdk-linux-buildroot" path="buildroot" revision="rk3588-linux-6.1-rkr6.1"/>
+  <project name="mixtile-sdk-linux-buildroot" path="buildroot" revision="rk3588-linux-6.1-rkr6"/>
   <project name="mixtile-sdk-linux-external-alsa-config" path="external/alsa-config" revision="rk3588-linux-6.1-rkr6"/>
   <project name="mixtile-sdk-linux-external-chromium" path="external/chromium" revision="rk3588-linux-6.1-rkr6" clone-depth="1"/>
   <project name="mixtile-sdk-linux-external-common_algorithm" path="external/common_algorithm" revision="rk3588-linux-6.1-rkr6"/>
@@ -15,7 +15,7 @@
   <project name="mixtile-sdk-linux-external-rkwifibt" path="external/rkwifibt" revision="rk3588-linux-6.1-rkr6"/>
   <project name="mixtile-sdk-linux-external-rkwifibt-app" path="external/rkwifibt-app" revision="rk3588-linux-6.1-rkr6"/>
   <project name="mixtile-sdk-linux-gstreamer-rockchip" path="external/gstreamer-rockchip" revision="rk3588-linux-6.1-rkr6"/>
-  <project name="mixtile-sdk-linux-libmali" path="external/libmali" revision="refs/tags/valhall-g610-linux-6.1-stan-rkr6" clone-depth="1"/>
+  <project name="mixtile-sdk-linux-libmali" path="external/libmali" revision="rk3588-linux-6.1-rkr6" clone-depth="1"/>
   <project name="mixtile-sdk-linux-linux-rga" path="external/linux-rga" revision="rk3588-linux-6.1-rkr6"/>
   <project name="mixtile-sdk-linux-recovery" path="external/recovery" revision="rk3588-linux-6.1-rkr6"/>
   <project name="mixtile-sdk-linux-external-rk_ethercat_release" path="external/rk_ethercat_release" revision="rk3588-linux-6.1-rkr6"/>
@@ -27,10 +27,10 @@
   <project name="mixtile-sdk-linux-external-rockit_uvc" path="external/rockit_uvc" revision="rk3588-linux-6.1-rkr6"/>
   <project name="mixtile-sdk-linux-tools" path="tools" revision="rk3588-linux-6.1-rkr6" clone-depth="1"/>
   <project name="mixtile-sdk-rk-librkcrypto" path="external/security/librkcrypto" revision="rk3588-linux-6.1-rkr6"/>
-  <project name="mixtile-sdk-rk-kernel" path="kernel-6.1" revision="rk3588-linux-6.1-rkr6.1">
+  <project name="mixtile-sdk-rk-kernel" path="kernel-6.1" revision="rk3588-linux-6.1-rkr6">
     <linkfile src="." dest="kernel"/>
   </project>
-  <project name="mixtile-sdk-rk-mpp" path="external/mpp" revision="rk3588-linux-6.1-rkr6.1"/>
+  <project name="mixtile-sdk-rk-mpp" path="external/mpp" revision="rk3588-linux-6.1-rkr6"/>
   <project name="mixtile-sdk-rk-prebuilts-gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="rk3588-linux-6.1-rkr6"/>
   <project name="mixtile-sdk-rk-prebuilts-gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" revision="rk3588-linux-6.1-rkr6"/>
   <project name="mixtile-sdk-rk-rkbin" path="rkbin" revision="rk3588-linux-6.1-rkr6"/>

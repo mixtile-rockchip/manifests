@@ -4,7 +4,7 @@
   <project path="yocto/meta-clang" name="mixtile-sdk-linux-poky" revision="scarthgap/meta-clang" clone-depth="1"/>
   <project path="yocto/meta-openembedded" name="mixtile-sdk-linux-poky" revision="scarthgap/meta-openembedded" clone-depth="1"/>
   <project path="yocto/meta-lts-mixins" name="mixtile-sdk-linux-poky" revision="scarthgap/meta-lts-mixins" clone-depth="1"/>
-  <project path="yocto/meta-rockchip" name="mixtile-sdk-linux-yocto/meta-rockchip" revision="rk3588-linux-6.1-rkr6"/>
+  <project path="yocto/meta-rockchip" name="mixtile-sdk-linux-yocto-meta-rockchip" revision="rk3588-linux-6.1-rkr6"/>
   <project path="yocto/poky" name="mixtile-sdk-linux-poky" revision="scarthgap/poky" clone-depth="1">
     <linkfile dest="yocto/scripts" src="scripts"/>
     <linkfile dest="yocto/bitbake" src="bitbake"/>
