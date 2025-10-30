@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<project name="linux/bsp/docs" path="docs" revision="6e80db67d40800767a95219a4253e7f72fc332ea" upstream="release" dest-branch="release" clone-depth="1">
+    <linkfile dest="Copyright_Statement.md" src="licenses/LICENSE"/>
+</project>
+<project name="linux/bsp/docs" path="docs/cn" revision="6902498e8adb4404941f58cc64137457be7a4b01" upstream="cn" dest-branch="cn" clone-depth="1">
+    <linkfile dest="docs/cn/RK3566_RK3568/Rockchip_Developer_Guide_Linux_Software_CN.pdf" src="Rockchip_Developer_Guide_Linux_Software_CN.pdf"/>
+</project>
+<project name="linux/bsp/docs" path="docs/en" revision="327e9a60db8fbf971bc738fe4061ac6c7acae575" upstream="en" dest-branch="en" clone-depth="1">
+    <linkfile dest="docs/en/RK3566_RK3568/Rockchip_Developer_Guide_Linux_Software_EN.pdf" src="Rockchip_Developer_Guide_Linux_Software_EN.pdf"/>
+</project>
+<project name="linux/bsp/internal_doc" path="docs/cn/RK3566_RK3568" revision="rk3566_rk3568-cn"/>
+<project name="linux/bsp/internal_doc" path="docs/en/RK3566_RK3568" revision="rk3566_rk3568-en"/>
+
+</manifest>

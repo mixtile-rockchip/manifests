@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="linux/build" path="yocto/build/conf" revision="refs/tags/build-linux-6.1-stan-rkr2" clone-depth="1"/>
+  <project name="linux/poky" path="yocto/meta-browser" revision="refs/tags/meta-browser-linux-6.1-stan-rkr2" clone-depth="1"/>
+  <project name="linux/poky" path="yocto/meta-clang" revision="refs/tags/meta-clang-linux-6.1-stan-rkr2" clone-depth="1"/>
+  <project name="linux/poky" path="yocto/meta-openembedded" revision="refs/tags/meta-openembedded-linux-6.1-stan-rkr2" clone-depth="1"/>
+  <project name="linux/poky" path="yocto/poky" revision="refs/tags/poky-linux-6.1-stan-rkr2">
+    <linkfile src="scripts" dest="yocto/scripts" revision="refs/tags/scripts-linux-6.1-stan-rkr2" clone-depth="1"/>
+    <linkfile src="bitbake" dest="yocto/bitbake" revision="refs/tags/bitbake-linux-6.1-stan-rkr2" clone-depth="1"/>
+    <linkfile src="meta-poky" dest="yocto/meta-poky" revision="refs/tags/meta-poky-linux-6.1-stan-rkr2" clone-depth="1"/>
+    <linkfile src=".templateconf" dest="yocto/.templateconf"/>
+    <linkfile src="oe-init-build-env" dest="yocto/oe-init-build-env"/>
+  </project>
+  <project name="linux/yocto/meta-rockchip" path="yocto/meta-rockchip" revision="refs/tags/meta-rockchip-linux-6.1-stan-rkr2" clone-depth="1"/>
+</manifest>

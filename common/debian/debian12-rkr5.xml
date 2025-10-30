@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="linux/debian" path="debian" revision="refs/tags/linux-6.1-stan-rkr5.2" clone-depth="1"/>
+  <project name="linux/xserver" path="external/xserver" revision="refs/tags/linux-6.1-stan-rkr5"/>
+  <project name="linux/drm-cursor" path="external/drm-cursor" revision="refs/tags/linux-6.1-stan-rkr5"/>
+</manifest>

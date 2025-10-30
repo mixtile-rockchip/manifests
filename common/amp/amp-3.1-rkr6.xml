@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="rtos/rt-thread/docs" path="docs/rtt-docs" revision="master"/>
+  <project name="rtos/rt-thread/rt-thread" path="rtos/" revision="develop" />
+  <project name="rtos/rt-thread/rtthread-apps" path="rtos/applications/rtthread-apps" revision="master"/>
+  <project name="rk/mcu/hal" path="hal" revision="master">
+	<linkfile dest="rtos/bsp/rockchip/common/hal" src="."/>
+  </project>
+  <project name="rk/mcu/hal/test" path="hal/test" revision="master"/>
+  <project name="rk/mcu/hal/middleware" path="hal/middleware" revision="master"/>
+  <project name="rk/mcu/hal/applications" path="hal/applications" revision="master"/>
+  <project name="rk/mcu/hal/board" path="hal/board" revision="master"/>
+  <project name="rk/prebuilts/gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux" path="prebuilts/gcc/linux-x86/arm/gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux" revision="master"/>
+</manifest>

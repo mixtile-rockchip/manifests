@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="linux/external/dpdk" path="external/dpdk" revision="refs/tags/linux-6.1-stan-rkr6"/>
+</manifest>
