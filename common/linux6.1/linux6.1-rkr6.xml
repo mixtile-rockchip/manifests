@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="android/rk/platform/system/rk_tee_user" path="external/security/rk_tee_user" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="android/rk/u-boot" path="u-boot" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="linux/app/lvgl_demo" path="app/lvgl_demo" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="linux/app/rkpartybox" path="app/rkpartybox" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="linux/bsp/rkadk" path="app/rkadk" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="linux/buildroot" path="buildroot" revision="refs/tags/linux-6.1-stan-rkr6.1"/>
-  <project name="linux/external/alsa-config" path="external/alsa-config" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="linux/external/chromium" path="external/chromium" revision="refs/tags/linux-6.1-stan-rkr6" clone-depth="1"/>
-  <project name="linux/external/common_algorithm" path="external/common_algorithm" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="linux/external/rk_pcba_test" path="external/rk_pcba_test" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="linux/external/rktoolkit" path="external/rktoolkit" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="linux/external/rkupdate" path="external/rkupdate" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="linux/external/rkwifibt" path="external/rkwifibt" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="linux/external/rkwifibt-app" path="external/rkwifibt-app" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="linux/gstreamer-rockchip" path="external/gstreamer-rockchip" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="linux/libmali" path="external/libmali" revision="refs/tags/bifrost-g52-linux-6.1-stan-rkr6.1" clone-depth="1"/>
-  <project name="linux/linux-rga" path="external/linux-rga" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="linux/recovery" path="external/recovery" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="linux/external/ethercat_igh" path="external/ethercat_igh" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="linux/rockchip-test" path="external/rockchip-test" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="linux/rockit" path="external/rockit" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="linux/security/bin" path="external/security/bin" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="linux/external/uac_app" path="external/uac_app" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="linux/external/uvc_app" path="external/uvc_app" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="linux/tools" path="tools" revision="refs/tags/linux-6.1-stan-rkr6" clone-depth="1"/>
-  <project name="rk/librkcrypto" path="external/security/librkcrypto" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="rk/kernel-stable" path="kernel-6.1" revision="refs/tags/linux-6.1-stan-rkr6.1">
+  <project name="rk_tee_user" path="external/security/rk_tee_user" revision="master"/>
+  <project name="u-boot" path="u-boot" revision="master"/>
+  <project name="lvgl_demo" path="app/lvgl_demo" revision="master"/>
+  <project name="rkpartybox" path="app/rkpartybox" revision="master"/>
+  <project name="rkadk" path="app/rkadk" revision="master"/>
+  <project name="buildroot" path="buildroot" revision="master"/>
+  <project name="alsa-config" path="external/alsa-config" revision="master"/>
+  <project name="chromium" path="external/chromium" revision="master" clone-depth="1"/>
+  <project name="common_algorithm" path="external/common_algorithm" revision="master"/>
+  <project name="rk_pcba_test" path="external/rk_pcba_test" revision="master"/>
+  <project name="rktoolkit" path="external/rktoolkit" revision="master"/>
+  <project name="rkupdate" path="external/rkupdate" revision="master"/>
+  <project name="rkwifibt" path="external/rkwifibt" revision="master"/>
+  <project name="rkwifibt-app" path="external/rkwifibt-app" revision="master"/>
+  <project name="gstreamer-rockchip" path="external/gstreamer-rockchip" revision="master"/>
+  <project name="libmali" path="external/libmali" revision="master" clone-depth="1"/>
+  <project name="linux-rga" path="external/linux-rga" revision="master"/>
+  <project name="recovery" path="external/recovery" revision="master"/>
+  <project name="ethercat_igh" path="external/ethercat_igh" revision="master"/>
+  <project name="rockchip-test" path="external/rockchip-test" revision="master"/>
+  <project name="rockit" path="external/rockit" revision="master"/>
+  <project name="security-bin" path="external/security/bin" revision="master"/>
+  <project name="uac_app" path="external/uac_app" revision="master"/>
+  <project name="uvc_app" path="external/uvc_app" revision="master"/>
+  <project name="tools" path="tools" revision="master" clone-depth="1"/>
+  <project name="librkcrypto" path="external/security/librkcrypto" revision="master"/>
+  <project name="kernel" path="kernel-6.1" revision="master">
     <linkfile src="." dest="kernel"/>
   </project>
-  <project name="rk/mpp" path="external/mpp" revision="refs/tags/linux-6.1-stan-rkr6.1"/>
-  <project name="rk/prebuilts/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="rk/prebuilts/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" revision="refs/tags/linux-6.1-stan-rkr6"/>
-  <project name="rk/rkbin" path="rkbin" revision="refs/tags/linux-6.1-stan-rkr6"/>
+  <project name="mpp" path="external/mpp" revision="master"/>
+  <project name="gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="master"/>
+  <project name="gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" revision="master"/>
+  <project name="rkbin" path="rkbin" revision="master"/>
 </manifest>

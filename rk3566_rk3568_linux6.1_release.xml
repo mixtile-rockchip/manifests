@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="rk" fetch="../../" />
+	<remote name="rk" fetch="https://code.focalcrest.com/Autonomic-M1/RK3566_Linux6_1_SDK/" />
   <default remote="rk" sync-j="4"/>
 
   <!-- Based file name： RK3566_RK3568_LINUX6.1_SDK_RELEASE_V1.2.0_20250620 -->
-  <include name="include/rk3566_rk3568_doc-r6.xml"/>
   <include name="common/linux6.1/linux6.1-rkr6.xml"/>
-  <include name="common/yocto/yocto-scarthgap-release-r6.xml"/>
   <include name="common/debian/debian12-rkr6.xml"/>
-  <include name="common/dpdk/dpdk-rkr6.xml"/>
-  <include name="common/amp/amp-3.1-rkr6.xml"/>
 
   <!-- device/rockchip for rk3566_rk3568 -->
-  <project name="linux/device/rockchip" path="device/rockchip" revision="refs/tags/rk3566_rk3568-linux-6.1-stan-rkr6">
+  <project name="rockchip" path="device/rockchip" revision="master">
     <linkfile src="common/scripts/build.sh" dest="build.sh"/>
     <linkfile src="common/Makefile" dest="Makefile"/>
     <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
   </project>
 
-  <project name="linux/external/camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="refs/tags/linux-6.1-stan-rkr6" clone-depth="1"/>
-  <project name="rk/rknn-toolkit2" path="external/rknn-toolkit2" revision="refs/tags/linux-6.1-stan-rkr6" clone-depth="1"/>
-  <project name="rk/rknpu2" path="external/rknpu2" revision="refs/tags/linux-6.1-stan-rkr6" clone-depth="1"/>
+  <project name="camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="master" clone-depth="1"/>
+  <project name="rknn-toolkit2" path="external/rknn-toolkit2" revision="master" clone-depth="1"/>
+  <project name="rknpu2" path="external/rknpu2" revision="master" clone-depth="1"/>
 </manifest>
