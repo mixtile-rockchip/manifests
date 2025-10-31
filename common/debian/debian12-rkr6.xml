@@ -2,5 +2,5 @@
 <manifest>
   <project name="debian" path="debian" revision="master" clone-depth="1"/>
   <project name="xserver" path="external/xserver" revision="master"/>
-  <project name="rm-cursor" path="external/drm-cursor" revision="master"/>
+  <project name="drm-cursor" path="external/drm-cursor" revision="master"/>
 </manifest>
