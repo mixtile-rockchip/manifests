@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="rk" fetch="https://code.focalcrest.com/Autonomic-M1/RK3566_Linux6_1_SDK/" />
-  <default remote="rk" sync-j="4"/>
+
+  <remote name="rk-http" 
+          fetch="https://code.focalcrest.com/Autonomic-M1/RK3566_Linux6_1_SDK/"
+          sync-j="4" />
+
+  <remote name="rk-ssh" 
+          fetch="ssh://git@code.focalcrest.com/Autonomic-M1/RK3566_Linux6_1_SDK/"
+          sync-j="4" />
+
+  <default remote="rk-ssh"
+          revision="main"
+          sync-j="4" />
 
   <!-- Based file name： RK3566_RK3568_LINUX6.1_SDK_RELEASE_V1.2.0_20250620 -->
   <include name="common/linux6.1/linux6.1-rkr6.xml"/>
@@ -18,3 +28,4 @@
   <project name="rknn-toolkit2" path="external/rknn-toolkit2" revision="master" clone-depth="1"/>
   <project name="rknpu2" path="external/rknpu2" revision="master" clone-depth="1"/>
 </manifest>
+
