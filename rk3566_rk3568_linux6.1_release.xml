@@ -2,11 +2,11 @@
 <manifest>
 
   <remote name="rk-http" 
-          fetch="https://code.focalcrest.com/Autonomic-M1/RK3566_Linux6_1_SDK/"
+          fetch="https://github.com/mixtile-rockchip/"
           sync-j="4" />
 
   <remote name="rk-ssh" 
-          fetch="ssh://git@code.focalcrest.com/Autonomic-M1/RK3566_Linux6_1_SDK/"
+          fetch="ssh://github.com/mixtile-rockchip/"
           sync-j="4" />
 
   <default remote="rk-ssh"
@@ -18,14 +18,14 @@
   <include name="common/debian/debian12-rkr6.xml"/>
 
   <!-- device/rockchip for rk3566_rk3568 -->
-  <project name="rockchip" path="device/rockchip" revision="master">
+  <project name="mixtile-sdk-linux-device-rockchip" path="device/rockchip" revision="rk3566-rk3568-rkr6">
     <linkfile src="common/scripts/build.sh" dest="build.sh"/>
     <linkfile src="common/Makefile" dest="Makefile"/>
     <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
   </project>
 
-  <project name="camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="master" clone-depth="1"/>
-  <project name="rknn-toolkit2" path="external/rknn-toolkit2" revision="master" clone-depth="1"/>
-  <project name="rknpu2" path="external/rknpu2" revision="master" clone-depth="1"/>
+  <project name="mixtile-sdk-linux-external-camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="rk3566-rk3568-rkr6" clone-depth="1"/>
+  <project name="mixtile-sdk-rk-rknn-toolkit2" path="external/rknn-toolkit2" revision="rk3566-rk3568-rkr6" clone-depth="1"/>
+  <project name="rknpu2" path="external/rknpu2" revision="rk3566-rk3568-rkr6" clone-depth="1"/>
 </manifest>
 
