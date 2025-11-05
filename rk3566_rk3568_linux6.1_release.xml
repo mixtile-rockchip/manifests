@@ -26,6 +26,6 @@
 
   <project name="mixtile-sdk-linux-external-camera_engine_rkaiq" path="external/camera_engine_rkaiq" revision="rk3566-rk3568-rkr6" clone-depth="1"/>
   <project name="mixtile-sdk-rk-rknn-toolkit2" path="external/rknn-toolkit2" revision="rk3566-rk3568-rkr6" clone-depth="1"/>
-  <project name="rknpu2" path="external/rknpu2" revision="rk3566-rk3568-rkr6" clone-depth="1"/>
+  <project name="mixtile-sdk-rk-rknpu2" path="external/rknpu2" revision="rk3566-rk3568-rkr6" clone-depth="1"/>
 </manifest>
 
