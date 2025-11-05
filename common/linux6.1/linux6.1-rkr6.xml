@@ -16,7 +16,7 @@
   <project name="mixtile-sdk-linux-external-rkwifibt-app" path="external/rkwifibt-app" revision="rk3566-rk3568-rkr6"/>
   <project name="mixtile-sdk-linux-gstreamer-rockchip" path="external/gstreamer-rockchip" revision="rk3566-rk3568-rkr6"/>
   <project name="mixtile-sdk-linux-libmali" path="external/libmali" revision="rk3566-rk3568-rkr6" clone-depth="1"/>
-  <project name="lmixtile-sdk-linux-linux-rga" path="external/linux-rga" revision="rk3566-rk3568-rkr6"/>
+  <project name="mixtile-sdk-linux-linux-rga" path="external/linux-rga" revision="rk3566-rk3568-rkr6"/>
   <project name="mixtile-sdk-linux-recovery" path="external/recovery" revision="rk3566-rk3568-rkr6"/>
   <project name="mixtile-sdk-linux-external-ethercat_igh" path="external/ethercat_igh" revision="rk3566-rk3568-rkr6"/>
   <project name="mixtile-sdk-linux-rockchip-test" path="external/rockchip-test" revision="rk3566-rk3568-rkr6"/>
@@ -24,9 +24,9 @@
   <project name="mixtile-sdk-linux-security-bin" path="external/security/bin" revision="rk3566-rk3568-rkr6"/>
   <project name="mixtile-sdk-linux-external-uac_app" path="external/uac_app" revision="rk3566-rk3568-rkr6"/>
   <project name="mixtile-sdk-linux-external-uvc_app" path="external/uvc_app" revision="rk3566-rk3568-rkr6"/>
-  <project name="mixtile-rockchip/mixtile-sdk-linux-tools" path="tools" revision="rk3566-rk3568-rkr6" clone-depth="1"/>
+  <project name="mixtile-sdk-linux-tools" path="tools" revision="rk3566-rk3568-rkr6" clone-depth="1"/>
   <project name="mixtile-sdk-rk-librkcrypto" path="external/security/librkcrypto" revision="rk3566-rk3568-rkr6"/>
-  <project name="mixtile-sdk-rk-kernel" path="kernel-6.1" revision="rk3566-rk3568-rkr6">
+  <project name="mixtile-sdk-rk-kernel" path="kernel-6.1" revision="rk3566-rk3568-rkr6" clone-depth="1">
     <linkfile src="." dest="kernel"/>
   </project>
   <project name="mixtile-sdk-rk-mpp" path="external/mpp" revision="rk3566-rk3568-rkr6"/>
