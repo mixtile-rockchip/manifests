@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <remote name="rk" 
-          fetch="https://github.com/mixtile-rockchip/"
-          sync-j="4" />
-
-  <default remote="rk"
-          revision="main"
-          sync-j="4" />
+  <remote name="rk" fetch="https://github.com/mixtile-rockchip/" />
+  <default remote="rk" sync-j="4"/>
 
   <!-- Based file name： RK3566_RK3568_LINUX6.1_SDK_RELEASE_V1.2.0_20250620 -->
   <include name="common/linux6.1/linux6.1-rkr6.xml"/>
