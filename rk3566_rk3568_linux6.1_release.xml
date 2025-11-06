@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="rk-http" 
+  <remote name="rk" 
           fetch="https://github.com/mixtile-rockchip/"
           sync-j="4" />
 
-  <remote name="rk-ssh" 
-          fetch="ssh://github.com/mixtile-rockchip/"
-          sync-j="4" />
-
-  <default remote="rk-ssh"
+  <default remote="rk"
           revision="main"
           sync-j="4" />
 
