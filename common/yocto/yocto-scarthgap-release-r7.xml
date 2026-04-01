@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="yocto/meta-browser" name="mixtile-sdk-linux-poky" revision="refs/tags/meta-browser-linux-6.1-stan-rkr7" clone-depth="1" />
+  <project path="yocto/meta-clang" name="mixtile-sdk-linux-poky" revision="refs/tags/meta-clang-linux-6.1-stan-rkr7" clone-depth="1" />
+  <project path="yocto/meta-openembedded" name="mixtile-sdk-linux-poky" revision="refs/tags/meta-openembedded-linux-6.1-stan-rkr7" clone-depth="1" />
+  <project path="yocto/meta-lts-mixins" name="mixtile-sdk-linux-poky" revision="refs/tags/meta-lts-mixins-linux-6.1-stan-rkr7" clone-depth="1" />
+  <project path="yocto/meta-rockchip" name="mixtile-sdk-linux-yocto-meta-rockchip" revision="refs/tags/meta-rockchip-linux-6.1-stan-rkr7" />
+  <project path="yocto/poky" name="mixtile-sdk-linux-poky" revision="refs/tags/poky-linux-6.1-stan-rkr7" clone-depth="1">
+    <linkfile dest="yocto/scripts" src="scripts" />
+    <linkfile dest="yocto/bitbake" src="bitbake" />
+    <linkfile dest="yocto/meta-poky" src="meta-poky" />
+    <linkfile dest="yocto/.templateconf" src=".templateconf" />
+    <linkfile dest="yocto/oe-init-build-env" src="oe-init-build-env" />
+  </project>
+  <project path="yocto/build/conf" name="mixtile-sdk-linux-build" revision="refs/tags/build-linux-6.1-stan-rkr7" />
+</manifest>

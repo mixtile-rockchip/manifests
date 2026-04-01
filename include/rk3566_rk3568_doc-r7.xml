@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="mixtile-sdk-linux-bsp-docs" path="docs" revision="refs/tags/linux-6.1-stan-rkr7" clone-depth="1">
+    <linkfile dest="Copyright_Statement.md" src="licenses/LICENSE" />
+  </project>
+  <project name="mixtile-sdk-linux-bsp-docs" path="docs/cn" revision="refs/tags/linux-6.1-stan-rkr7-cn" clone-depth="1">
+    <linkfile dest="docs/cn/RK3566_RK3568/Rockchip_Developer_Guide_Linux_Software_CN.pdf" src="Rockchip_Developer_Guide_Linux_Software_CN.pdf" />
+  </project>
+  <project name="mixtile-sdk-linux-bsp-docs" path="docs/en" revision="refs/tags/linux-6.1-stan-rkr7-en" clone-depth="1">
+    <linkfile dest="docs/en/RK3566_RK3568/Rockchip_Developer_Guide_Linux_Software_EN.pdf" src="Rockchip_Developer_Guide_Linux_Software_EN.pdf" />
+  </project>
+  <project name="mixtile-sdk-linux-bsp-internal_doc" path="docs/cn/RK3566_RK3568" revision="rk3566_rk3568-cn" />
+  <project name="mixtile-sdk-linux-bsp-internal_doc" path="docs/en/RK3566_RK3568" revision="rk3566_rk3568-en" />
+</manifest>

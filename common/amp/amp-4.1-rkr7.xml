@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="mixtile-sdk-rtos-rt-thread-docs" path="docs/rtt-docs" revision="refs/tags/linux-6.1-stan-rkr7" clone-depth="1" />
+  <project name="mixtile-sdk-rtos-rt-thread-rt-thread" path="rtos/" revision="refs/tags/linux-6.1-stan-rkr7" clone-depth="1" />
+  <project name="mixtile-sdk-rtos-rt-thread-rtthread-apps" path="rtos/applications/rtthread-apps" revision="refs/tags/linux-6.1-stan-rkr7" clone-depth="1" />
+  <project name="mixtile-sdk-rk-mcu-hal" path="hal" revision="refs/tags/linux-6.1-stan-rkr7" clone-depth="1">
+    <linkfile dest="rtos/bsp/rockchip/common/hal" src="." />
+  </project>
+  <project name="mixtile-sdk-rk-mcu-hal-test" path="hal/test" revision="refs/tags/linux-6.1-stan-rkr7" clone-depth="1" />
+  <project name="mixtile-sdk-rk-mcu-hal-middleware" path="hal/middleware" revision="refs/tags/linux-6.1-stan-rkr7" clone-depth="1" />
+  <project name="mixtile-sdk-rk-mcu-hal-applications" path="hal/applications" revision="refs/tags/linux-6.1-stan-rkr7" clone-depth="1" />
+  <project name="mixtile-sdk-rk-mcu-hal-board" path="hal/board" revision="refs/tags/linux-6.1-stan-rkr7" clone-depth="1" />
+  <project name="mixtile-sdk-rk-prebuilts-gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux" path="prebuilts/gcc/linux-x86/arm/gcc-arm-none-eabi-10-2020-q4-major-x86_64-linux" revision="refs/tags/linux-6.1-stan-rkr7" clone-depth="1" />
+  <project name="mixtile-sdk-rk-prebuilts-arm-gnu-toolchain-13.2.rel1-x86_64-aarch64-none-elf" path="prebuilts/gcc/linux-x86/aarch64/arm-gnu-toolchain-13.2.Rel1-x86_64-aarch64-none-elf" revision="refs/tags/linux-6.1-stan-rkr7" clone-depth="1" />
+  <remove-project name="linux/rockit" path="external/rockit" revision="refs/tags/linux-6.1-stan-rkr7" clone-depth="1" />
+  <project name="mixtile-sdk-linux-rockit" path="external/rockit" revision="refs/tags/linux-6.1-stan-rkr7" clone-depth="1">
+    <linkfile src="." dest="rtos/bsp/rockchip/common/drivers/rockit" />
+  </project>
+</manifest>

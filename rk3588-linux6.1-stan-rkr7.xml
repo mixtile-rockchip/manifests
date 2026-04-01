@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="."/>
+  <default remote="github" sync-j="4"/>
+
+  <!-- RK3588_LINUX6.1_SDK_RELEASE_V1.4.0_20251220 -->
+  <include name="base-linux6.1-stan-rkr7.xml"/>
+  <include name="include/rk3588_doc-r7.xml"/>
+  <include name="common/rkipc/rkipc-rkr7.xml"/>
+  <include name="common/amp/amp-rkr7.xml"/>
+
+  <project name="mixtile-sdk-linux-device-rockchip" path="device/rockchip" revision="refs/tags/rk3588-linux-6.1-stan-rkr7">
+    <linkfile src="common/scripts/build.sh" dest="build.sh"/>
+    <linkfile src="common/Makefile" dest="Makefile"/>
+    <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
+  </project>
+  <project name="mixtile-sdk-rk-rknn-llm" path="external/rknn-llm" revision="refs/tags/linux-6.1-stan-rkr7" clone-depth="1"/>
+</manifest>
