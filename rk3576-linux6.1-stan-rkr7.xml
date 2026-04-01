@@ -14,5 +14,5 @@
     <linkfile src="common/Makefile" dest="Makefile"/>
     <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
   </project>
-  <project name="mixtile-sdk-rk-rknn-llm" path="external/rknn-llm" revision="refs/tags/linux-6.1-stan-rkr7" clone-depth="1"/>
+  <project name="mixtile-sdk-rk-rknn-llm" path="external/rknn-llm" revision="refs/heads/linux-6.1-stan-rkr7" clone-depth="1"/>
 </manifest>

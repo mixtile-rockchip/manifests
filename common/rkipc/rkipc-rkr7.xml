@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="mixtile-sdk-linux-app-rkipc" path="app/rkipc" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-app-web-new-ipcweb-backend" path="app/ipcweb-backend" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-ipc-media-iva" path="external/iva" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-ipc-media-avs" path="external/avs" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-external-minilogger" path="external/minilogger" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-rkfsmk" path="external/rkfsmk" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-ipc-media-samples" path="external/samples" revision="refs/tags/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-app-rkipc" path="app/rkipc" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-app-web-new-ipcweb-backend" path="app/ipcweb-backend" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-ipc-media-iva" path="external/iva" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-ipc-media-avs" path="external/avs" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-external-minilogger" path="external/minilogger" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-rkfsmk" path="external/rkfsmk" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-ipc-media-samples" path="external/samples" revision="refs/heads/linux-6.1-stan-rkr7" />
 </manifest>

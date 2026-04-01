@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="mixtile-sdk-android-rk-platform-system-rk_tee_user" path="external/security/rk_tee_user" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-android-rk-u-boot" path="u-boot" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-app-lvgl_demo" path="app/lvgl_demo" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-app-rkpartybox" path="app/rkpartybox" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-bsp-rkadk" path="app/rkadk" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-buildroot" path="buildroot" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-external-alsa-config" path="external/alsa-config" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-external-chromium" path="external/chromium" revision="refs/tags/linux-6.1-stan-rkr7" clone-depth="1" />
-  <project name="mixtile-sdk-linux-external-common_algorithm" path="external/common_algorithm" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-external-rk_pcba_test" path="external/rk_pcba_test" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-external-rktoolkit" path="external/rktoolkit" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-external-rkupdate" path="external/rkupdate" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-external-rkwifibt" path="external/rkwifibt" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-external-rkwifibt-app" path="external/rkwifibt-app" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-gstreamer-rockchip" path="external/gstreamer-rockchip" revision="refs/tags/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-android-rk-platform-system-rk_tee_user" path="external/security/rk_tee_user" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-android-rk-u-boot" path="u-boot" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-app-lvgl_demo" path="app/lvgl_demo" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-app-rkpartybox" path="app/rkpartybox" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-bsp-rkadk" path="app/rkadk" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-buildroot" path="buildroot" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-external-alsa-config" path="external/alsa-config" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-external-chromium" path="external/chromium" revision="refs/heads/linux-6.1-stan-rkr7" clone-depth="1" />
+  <project name="mixtile-sdk-linux-external-common_algorithm" path="external/common_algorithm" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-external-rk_pcba_test" path="external/rk_pcba_test" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-external-rktoolkit" path="external/rktoolkit" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-external-rkupdate" path="external/rkupdate" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-external-rkwifibt" path="external/rkwifibt" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-external-rkwifibt-app" path="external/rkwifibt-app" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-gstreamer-rockchip" path="external/gstreamer-rockchip" revision="refs/heads/linux-6.1-stan-rkr7" />
   <project name="mixtile-sdk-linux-libmali" path="external/libmali" revision="refs/tags/bifrost-g52-linux-6.1-stan-rkr7" clone-depth="1" />
-  <project name="mixtile-sdk-linux-linux-rga" path="external/linux-rga" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-recovery" path="external/recovery" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-external-ethercat_igh" path="external/ethercat_igh" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-rockchip-test" path="external/rockchip-test" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-rockit" path="external/rockit" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-security-bin" path="external/security/bin" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-external-uac_app" path="external/uac_app" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-external-uvc_app" path="external/uvc_app" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-external-rockit_uvc" path="external/rockit_uvc" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-linux-tools" path="tools" revision="refs/tags/linux-6.1-stan-rkr7" clone-depth="1" />
-  <project name="mixtile-sdk-rk-librkcrypto" path="external/security/librkcrypto" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-rk-kernel" path="kernel-6.1" revision="refs/tags/linux-6.1-stan-rkr7">
+  <project name="mixtile-sdk-linux-linux-rga" path="external/linux-rga" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-recovery" path="external/recovery" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-external-ethercat_igh" path="external/ethercat_igh" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-rockchip-test" path="external/rockchip-test" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-rockit" path="external/rockit" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-security-bin" path="external/security/bin" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-external-uac_app" path="external/uac_app" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-external-uvc_app" path="external/uvc_app" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-external-rockit_uvc" path="external/rockit_uvc" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-linux-tools" path="tools" revision="refs/heads/linux-6.1-stan-rkr7" clone-depth="1" />
+  <project name="mixtile-sdk-rk-librkcrypto" path="external/security/librkcrypto" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-rk-kernel" path="kernel-6.1" revision="refs/heads/linux-6.1-stan-rkr7">
     <linkfile src="." dest="kernel" />
   </project>
-  <project name="mixtile-sdk-rk-mpp" path="external/mpp" revision="refs/tags/linux-6.1-stan-rkr7.1" />
-  <project name="mixtile-sdk-rk-prebuilts-gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-rk-prebuilts-gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" revision="refs/tags/linux-6.1-stan-rkr7" />
-  <project name="mixtile-sdk-rk-rkbin" path="rkbin" revision="refs/tags/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-rk-mpp" path="external/mpp" revision="refs/heads/linux-6.1-stan-rkr7.1" />
+  <project name="mixtile-sdk-rk-prebuilts-gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-rk-prebuilts-gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" revision="refs/heads/linux-6.1-stan-rkr7" />
+  <project name="mixtile-sdk-rk-rkbin" path="rkbin" revision="refs/heads/linux-6.1-stan-rkr7" />
 </manifest>
