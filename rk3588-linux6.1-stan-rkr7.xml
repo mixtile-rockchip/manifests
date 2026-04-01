@@ -9,7 +9,7 @@
   <include name="common/rkipc/rkipc-rkr7.xml"/>
   <include name="common/amp/amp-rkr7.xml"/>
 
-  <project name="mixtile-sdk-linux-device-rockchip" path="device/rockchip" revision="refs/tags/rk3588-linux-6.1-stan-rkr7">
+  <project name="mixtile-sdk-linux-device-rockchip" path="device/rockchip" revision="refs/heads/linux-6.1-stan-rkr7">
     <linkfile src="common/scripts/build.sh" dest="build.sh"/>
     <linkfile src="common/Makefile" dest="Makefile"/>
     <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
