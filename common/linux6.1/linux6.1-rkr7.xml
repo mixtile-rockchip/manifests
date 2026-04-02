@@ -30,7 +30,7 @@
   <project name="mixtile-sdk-rk-kernel" path="kernel-6.1" revision="refs/heads/linux-6.1-stan-rkr7">
     <linkfile src="." dest="kernel" />
   </project>
-  <project name="mixtile-sdk-rk-mpp" path="external/mpp" revision="refs/heads/linux-6.1-stan-rkr7.1" />
+  <project name="mixtile-sdk-rk-mpp" path="external/mpp" revision="refs/heads/linux-6.1-stan-rkr7" />
   <project name="mixtile-sdk-rk-prebuilts-gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.3-2021.07-x86_64-aarch64-none-linux-gnu" revision="refs/heads/linux-6.1-stan-rkr7" />
   <project name="mixtile-sdk-rk-prebuilts-gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.3-2021.07-x86_64-arm-none-linux-gnueabihf" revision="refs/heads/linux-6.1-stan-rkr7" />
   <project name="mixtile-sdk-rk-rkbin" path="rkbin" revision="refs/heads/linux-6.1-stan-rkr7" />
