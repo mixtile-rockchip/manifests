@@ -14,5 +14,7 @@
     <linkfile src="common/Makefile" dest="Makefile"/>
     <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
   </project>
+  <remove-project name="mixtile-sdk-linux-libmali" path="external/libmali" revision="refs/tags/bifrost-g52-linux-6.1-stan-rkr7" clone-depth="1" />
+  <project name="mixtile-sdk-linux-libmali" path="external/libmali" revision="refs/tags/valhall-g610-linux-6.1-stan-rkr7" clone-depth="1" />
   <project name="mixtile-sdk-rk-rknn-llm" path="external/rknn-llm" revision="refs/heads/linux-6.1-stan-rkr7" clone-depth="1"/>
 </manifest>
