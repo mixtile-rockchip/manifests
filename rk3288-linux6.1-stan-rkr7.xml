@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="."/>
+  <default remote="github" sync-j="4"/>
+
+  <!-- RK3288_LINUX6.1_SDK -->
+  <include name="base-linux6.1-stan-rkr7.xml"/>
+  <include name="common/amp/amp-3.1-rkr7.xml"/>
+
+  <!-- Override libmali to use the Midgard T76x tag for Mali-T764 (RK3288) -->
+  <project name="mixtile-sdk-linux-libmali" path="external/libmali"
+           revision="refs/tags/midgard-t76x-linux-6.1-stan-rkr7" clone-depth="1" />
+
+  <project name="mixtile-sdk-linux-device-rockchip" path="device/rockchip" revision="refs/heads/linux-6.1-stan-rkr7">
+    <linkfile src="common/scripts/build.sh" dest="build.sh"/>
+    <linkfile src="common/Makefile" dest="Makefile"/>
+    <linkfile src="common/scripts/rkflash.sh" dest="rkflash.sh"/>
+  </project>
+</manifest>
